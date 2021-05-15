@@ -254,7 +254,6 @@ html {
 
 .rigth {
     position: relative;
-    right: 3em;
 }
 
 .rigth-container {
@@ -295,6 +294,7 @@ html {
 }
 
 .footer h6 {
+    width: 100%;
     position: absolute;
     top: 0.5em;
     text-align: center;
@@ -323,45 +323,43 @@ html {
 }
 
 .detail-img .item-viewed {
-    position: relative;
+    position: absolute;
     top: 0;
-    right: -94%;
+    right: 0;
 }
 
 .detail-body {
     position: relative;
-    left: 16.6667%;
-    padding: 3%;
-    top: 0;
 }
 
 .detail-content {
     background-color: #fff;
     width: 100%;
-    margin-top: 500px;
     padding: 40px 60px;
 }
 
 .reference {
     margin-top: 50px;
     padding-right: 0px;
-    width: 104%;
+    width: 101.5%;
 }
 
 .reference ul {
     list-style: none;
-    justify-content: center;
+    width: 100%;
+}
+
+.reference li {
+    width: 100%;
 }
 
 .reference .inner-item {
-    width: 85%;
+    width: 100%;
 }
 
-.reference .card-img-top {
-    background-image: url("./img/item-list-img.jpg");
-    height: 120px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.reference .card-img-top img {
+    width: 100%;
+    height: auto;
 }
 
 .reference .item-detail {
@@ -377,13 +375,13 @@ html {
     right: 0;
 }
 
+.category-header {
+    margin-left: 30px;
+}
+
 .category-header span {
     font-size: 30px;
     line-height: 40px;
-}
-
-.category-detail li {
-    margin-bottom: 2.5rem;
 }
 
 .under-line-div {

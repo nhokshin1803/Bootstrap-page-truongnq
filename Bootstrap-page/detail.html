@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="detail.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
@@ -41,10 +41,9 @@
     <!-- header end-->
 
     <!-- content begin -->
-    <div class="row container-fluid content no-gutters" style="height: 2800px;">
-
+    <div class="row container-fluid content no-gutters" style="width: 100%;">
         <!--Menu-->
-        <div class="menu col-12 col-md-3 col-lg-3 col-xl-2">
+        <div class="menu col-12 col-sm-3 col-md-3 col-lg-3 col-xl-2">
             <div class="menu-nav">
                 <ul>
                     <li class="hover-red">
@@ -99,22 +98,22 @@
         <!--Menu end-->
 
         <!-- Body start -->
-        <div class="body">
-            <div class="row d-flex article-container ml-2">
-                <div class="col-md-9" style="display:block;">
+        <div class="detail-body col-12 col-sm-9 col-md-9 col-lg-9 col-xl-10 no-gutters">
+            <div class="row d-flex detail-container mt-4" style="padding:4% 2% 0 0;">
+                <div class="col-9" style="padding: 0 3% 4% 4%;">
                     <div>
                         <div class="content-header">
-                            <h6 class="first-title" style="font-size: 30px; line-height: 50px; font-weight: 400;">
+                            <h6 class="first-title" style="font-size: 25px; line-height: 40px; font-weight: 400;">
                                 トッュース
                                 <div class="under-line-div" style="width: 150px ;"></div>
                             </h6>
                         </div>
                         <div>
-                            <h6 class="first-title center" style="font-size: 30px; line-height: 50px; font-weight: 400;">
+                            <h6 class="first-title center" style="font-size: 25px; line-height: 40px; font-weight: 400;">
                                 GANAS
                             </h6>
                         </div>
-                        <div class="detail-img">
+                        <div class="detail-img" style="position: relative;">
                             <div class="article-item">
                                 <img src="./img/index-main-article.jpg" class="main-article-img" alt="">
                             </div>
@@ -124,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="detail-content" style="height: 1500px;">
+                    <div class="detail-content mt-5">
                         <h5>女子教育は衰退していいのか？ 国際機関が重視しなくなった謎を元UNICEF職員が語る</h5>
                         <span>女子教育は衰退していいのか？ 国際機関が重視しなくなった謎を元UNICEF職員が語る
                             サルタックがネパールで実施した教育調査に協力してくれたネパールの女子大大学院の学生の前で講義する畠山勝太理事（写真奥）サルタックがネパールで実施した教育調査に協力してくれたネパールの女子大大学院の学生の前で講義する畠山勝太理事（写真奥）
@@ -166,14 +165,37 @@
                             サルタックがカトマンズ近郊で運営する「学習センター」で読書する子どもたち。すべての学びの土台となる読解力を向上させようと、サルタックは読書を促す</span>
                     </div>
                     <div class="reference">
-                        <ul class="row list card-group no-gutters" style="justify-content: center">
-                            <li class="col-xl-3 ">
+                        <ul class="row list card-group no-gutters" style="margin-bottom: 8rem;">
+                            <li class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6 mb-xl-0 mb-4 pr-2">
                                 <a href="#" class="card inner-item">
                                     <div class="article-item">
-                                        <div class="item-image-list">
-                                            <span class="item-new">NEW</span>
-                                        </div>
                                         <div class="img card-img-top">
+                                            <img src="./img/item-list-img.jpg" alt="">
+                                        </div>
+                                        <div class="item-viewed">
+                                            <i class="far fa-eye"></i>
+                                            <span>2</span>
+                                        </div>
+                                        <div class="card-body item-detail">
+                                            <h6>
+                                                首相、外国人専門家の入国許可の見直しを指示［社会］
+                                            </h6>
+                                            <p style="opacity: 0.7;">
+                                                「首相、外国人専門家の入国許可の見直しを指示」についての社会カテゴリ記事。VIETJOベトナムニュー...
+                                            </p>
+                                        </div>
+                                        <div class="info-footer">
+                                            <span>Viet Jo</span>
+                                            <span style="float: right;">キング</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6 pr-2">
+                                <a href="#" class="card inner-item">
+                                    <div class="article-item">
+                                        <div class="img card-img-top">
+                                            <img src="./img/item-list-img.jpg" alt="">
 
                                         </div>
                                         <div class="item-viewed">
@@ -195,13 +217,11 @@
                                     </div>
                                 </a>
                             </li>
-                            <li class="col-xl-3">
+                            <li class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6 pr-2">
                                 <a href="#" class="card inner-item">
                                     <div class="article-item">
-                                        <div class="item-image-list">
-                                            <span class="item-new">NEW</span>
-                                        </div>
                                         <div class="img card-img-top">
+                                            <img src="./img/item-list-img.jpg" alt="">
 
                                         </div>
                                         <div class="item-viewed">
@@ -223,41 +243,11 @@
                                     </div>
                                 </a>
                             </li>
-                            <li class="col-xl-3">
+                            <li class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6 pr-2">
                                 <a href="#" class="card inner-item">
                                     <div class="article-item">
-                                        <div class="item-image-list">
-                                            <span class="item-new">NEW</span>
-                                        </div>
                                         <div class="img card-img-top">
-
-                                        </div>
-                                        <div class="item-viewed">
-                                            <i class="far fa-eye"></i>
-                                            <span>2</span>
-                                        </div>
-                                        <div class="card-body item-detail">
-                                            <h6>
-                                                首相、外国人専門家の入国許可の見直しを指示［社会］
-                                            </h6>
-                                            <p style="opacity: 0.7;">
-                                                「首相、外国人専門家の入国許可の見直しを指示」についての社会カテゴリ記事。VIETJOベトナムニュー...
-                                            </p>
-                                        </div>
-                                        <div class="info-footer">
-                                            <span>Viet Jo</span>
-                                            <span style="float: right;">キング</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="col-xl-3">
-                                <a href="#" class="card inner-item">
-                                    <div class="article-item">
-                                        <div class="item-image-list">
-                                            <span class="item-new">NEW</span>
-                                        </div>
-                                        <div class="img card-img-top">
+                                            <img src="./img/item-list-img.jpg" alt="">
 
                                         </div>
                                         <div class="item-viewed">
@@ -284,12 +274,12 @@
                     </div>
                 </div>
                 <!--Rigth-->
-                <div class="col-md-3">
+                <div class="col-3 mt-5">
                     <div class="rigth">
                         <h3 class="first-title mb-3">
                             <span>
-                                トッュース
-                            </span>
+                            トッュース
+                        </span>
                         </h3>
                         <div class="rigth-container">
                             <a href="./detail.html">
