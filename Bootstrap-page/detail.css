@@ -42,6 +42,8 @@ html {
 .menu {
     position: relative;
     width: 16.6667%;
+    background-color: #2a2f33;
+    ;
 }
 
 .menu .menu-nav {
@@ -341,7 +343,7 @@ html {
 .reference {
     margin-top: 50px;
     padding-right: 0px;
-    width: 101.5%;
+    width: 104.5%;
 }
 
 .reference ul {
@@ -354,7 +356,7 @@ html {
 }
 
 .reference .inner-item {
-    width: 100%;
+    width: 85%;
 }
 
 .reference .card-img-top img {
